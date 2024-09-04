@@ -1,23 +1,16 @@
 import {
   Box,
   Button,
-  Card,
   Container,
   Grid,
   Heading,
   Image,
-  Link,
   Text
 } from 'theme-ui'
 import Meta from '@hackclub/meta'
 import Head from 'next/head'
-import NextLink from 'next/link'
 import Nav from '../components/nav'
-import SlideDown from '../components/slide-down'
-import FadeIn from '../components/fade-in'
-import Icon from '../components/icon'
 import Footer from '../components/footer'
-import { keyframes } from '@emotion/react'
 import Carousel from '../components/congressional-app-challenge/carousel'
 
 const color = '#000000'
@@ -30,8 +23,7 @@ function Page({
     <Meta
       as={Head}
       title="Congressional App Challenge x Hack Club"
-      description="Landing page about how Hack Club can help students apply to the Congressional App Challenge"
-      image="https://cloud-r4rrjh2z8-hack-club-bot.vercel.app/52020-07-25_52g0nw40p2b00dh39mt93xq5ubku6yaj.jpeg"
+      description="How Hack Club can help you apply to the Congressional App Challenge."
     />
     <Nav color={color} light />
     <Box id="main">
