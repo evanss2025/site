@@ -241,7 +241,7 @@ function Page({
             flexDirection:'column'
           }}>
           <Text as="h2" sx={{fontSize:'30px', mt:'3', color:'#C70000'}}>STEP 2</Text>
-          <Text as="p" sx={{width: ['90%', '70%'], fontSize:'23px'}}>Join Zoom calls with past Hack Club winners to learn about their projects and to get advice on where to start.</Text>
+          <Text as="p" sx={{width: ['90%', '70%'], fontSize:'23px'}}>Join Zoom calls with past Hack Club winners to learn about their projects and to get advice on where to start. Speakers:</Text>
           <Box 
             sx={{
               display:'flex',
@@ -250,75 +250,56 @@ function Page({
             <Box 
               sx={{
                 display:'flex',
-                flexDirection:'column'}}>
-              <Image 
-                src="/home/flagship_4.jpg" 
-                sx={{ borderRadius: '10px', m:'3', wdith:['100%', '50%']}}>
-              </Image>
+                flexDirection:'column',
+                m:'2'
+              }}>
               <Text as='p' sx={{fontSize:'23px'}}>Clay, 16</Text>
             </Box>
             <Box 
               sx={{
                 display:'flex',
-                flexDirection:'column'}}>
-              <Image 
-                src="/home/flagship_4.jpg" 
-                sx={{ borderRadius: '10px', m:'3', wdith:['100%', '50%']}}>
-              </Image>
+                flexDirection:'column',
+                m:'2'
+              }}>
+
               <Text as='p' sx={{fontSize:'23px'}}>Sahiti, 17</Text>
             </Box>
             <Box 
               sx={{
                 display:'flex',
-                flexDirection:'column'}}>
-              <Image 
-                src="/home/flagship_4.jpg" 
-                sx={{ borderRadius: '10px', m:'3', wdith:['100%', '50%']}}>
-              </Image>
-              <Text as='p' sx={{fontSize:'23px'}}>Name, Age</Text>
+                flexDirection:'column',
+                m:'2'
+              }}>
+              <Text as='p' sx={{fontSize:'23px'}}>Alex, 16</Text>
             </Box>
             <Box 
               sx={{
                 display:'flex',
-                flexDirection:'column'}}>
-              <Image 
-                src="/home/flagship_4.jpg" 
-                sx={{ borderRadius: '10px', m:'3', wdith:['100%', '50%']}}>
-              </Image>
-              <Text as='p' sx={{fontSize:'23px'}}>Name, Age</Text>
+                flexDirection:'column',
+                m:'2'
+              }}>
+              <Text as='p' sx={{fontSize:'23px'}}>Andrea, 16</Text>
+            </Box>
+            <Box 
+              sx={{
+                display:'flex',
+                flexDirection:'column',
+                m:'2'
+              }}>
+              <Text as='p' sx={{fontSize:'23px'}}>Samay, 17</Text>
             </Box>
           </Box>
           <Grid 
             id="zoom-cards"
             gap={2} 
-            columns={[1, null, 3]} 
+            columns={[1, 2]} 
             sx={{
               m:'2',
               justifyContent:'center', 
               alignItems:'center', 
               justifyItems:'center'}}
             >
-            <Box id="zoom-card" sx={{width:['90%'], m:'3'}}>
-              <Box 
-                sx={{
-                  alignItems:'center',
-                  textAlign:'center',
-                  display:'flex',
-                  flexDirection:'column',
-                  background:'white',
-                  color:'black',
-                  p:'2',
-                  borderRadius: '10px',
-                  marginBottom: '2',
-                  padding: '3'}}
-                >
-                <Text as="h3" sx={{}}>September 10th, 7 PM EST</Text>
-                <a>
-                  <Button sx={{background:'#001D85', color:'#white', mt:'2', borderRadius:'10px'}}>Add to Calendar</Button>
-                </a>
-              </Box>
-
-            </Box>
+            
             <Box id="zoom-card" sx={{width:['90%'], m:'3'}}>
               <Box 
                 sx={{
